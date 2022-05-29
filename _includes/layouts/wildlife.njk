@@ -1,0 +1,11 @@
+---
+layout: layouts/base.njk
+section: wildlife
+permalink: /wildlife/index.html
+---
+<h1>{{ title }}</h1>
+
+{{ layoutContent | safe }}
+
+{% set postslist = collections.wildlife %}
+{% include "components/postslist.njk" %}

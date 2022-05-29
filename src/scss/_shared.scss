@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+$white: #ffffff;
+$background: $white;
+$color-primary: blue;
+$color-secondary: #FFF0EB;
+
+html,
+body {
+  font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}

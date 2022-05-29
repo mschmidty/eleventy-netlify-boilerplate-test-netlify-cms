@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Documentation for the Tres Rios Field Office AIM and Wildlife Programs",
   "scripts": {
-    "build": "npx eleventy",
+    "build:sass": "npx sass src/scss:_site/css",
+    "build": "npx eleventy && npm run build:sass",
+    "watch:sass": "npx sass src/scss:_site/css --watch",
     "watch": "npx eleventy --watch",
-    "serve": "npx eleventy --serve",
+    "serve": "npm run watch:sass & npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
@@ -32,6 +34,7 @@
     "@11ty/eleventy-navigation": "^0.3.2",
     "clean-css": "^5.2.4",
     "html-minifier": "^4.0.0",
+    "sass": "^1.52.1",
     "uglify-js": "^3.15.1"
   }
 }

@@ -5,7 +5,7 @@ author: Mike Schmidt
 summary: This is a summary
 tags:
   - post
-  - bananas
+  - aim
   - hello
   - fancy
 ---

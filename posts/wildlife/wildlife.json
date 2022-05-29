@@ -1,7 +1,8 @@
 {
   "layout": "layouts/post.njk",
+  "permalink": "wildlife/{{ title | slug }}/index.html",
   "author": "Anonymous",
   "tags": [
-    "post"
+    "wildlife"
   ]
 }
