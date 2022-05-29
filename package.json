@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-netlify-boilerplate",
-  "version": "1.0.3",
-  "description": "A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.",
+  "name": "trfo_aim_wildlife_docs",
+  "version": "1.0.0",
+  "description": "Documentation for the Tres Rios Field Office AIM and Wildlife Programs",
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate"
+    "url": "https://github.com/mschmidty/trfo_aim_wildlife_docs"
   },
   "author": {
-    "name": "Dan Urbanowicz",
-    "email": "dan.urbanowicz@gmail.com",
-    "url": "https://www.danurbanowicz.com/"
+    "name": "Michael Schmidt",
+    "email": "mschmidty@gmail.com",
+    "url": "https://www.schmidtynotes.com/"
   },
   "license": "MIT",
   "bugs": {
